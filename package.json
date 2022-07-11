@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "test": "forge test --fork-url https://rinkeby.infura.io/v3/74dcafedb8c64eeeab7d0149940ca93c -vv",
+        "test:gas": "forge test --fork-url https://rinkeby.infura.io/v3/74dcafedb8c64eeeab7d0149940ca93c -vv --gas-report",
+        "test:log": "forge test --fork-url https://rinkeby.infura.io/v3/74dcafedb8c64eeeab7d0149940ca93c -vvv",
+        "test:debug": "forge test --fork-url https://rinkeby.infura.io/v3/74dcafedb8c64eeeab7d0149940ca93c -vvvvv",
+        "deploy": "./deploy.sh"
+    }
+}
